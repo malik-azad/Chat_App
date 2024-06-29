@@ -63,7 +63,6 @@ This project implements a secure chat application using RSA encryption for digit
  The server displays: username joined the chat.
  The client displays: Successful login, ready to chat with host.
 
-<br>
 ## Chatting
  After logging in, you can start sending and receiving encrypted messages. The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
 
