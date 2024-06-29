@@ -51,28 +51,28 @@ This project implements a secure chat application using RSA encryption for digit
  ### Run the server script:
        python server.py
 
-### The server will start listening for incoming connections on port 9999.
+ The server will start listening for incoming connections on port 9999.
    
 ## Step 4: Connect with the Client
 ### Run the client script:
       python client.py
       
-###The client will automatically connect to the server using the IP address defined in the script. You will be prompted to enter your username and password.
+ The client will automatically connect to the server using the IP address defined in the script. You will be prompted to enter your username and password.
 
 ## Successful Login
-### The server displays: username joined the chat.
-### The client displays: Successful login, ready to chat with host.
+ The server displays: username joined the chat.
+ The client displays: Successful login, ready to chat with host.
 
 <br>
 ## Chatting
-### After logging in, you can start sending and receiving encrypted messages. The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
+ After logging in, you can start sending and receiving encrypted messages. The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
 
 ## Project Structure
-###  db.py: Handles user registration, login, and database operations.
-###  server.py: Manages incoming connections and facilitates secure communication.
-###  client.py: Connects to the server and handles sending and receiving messages.
+ db.py: Handles user registration, login, and database operations.
+ server.py: Manages incoming connections and facilitates secure communication.
+ client.py: Connects to the server and handles sending and receiving messages.
 
 ## License
-### This project is licensed under the MIT License.
+ This project is licensed under the MIT License.
 
-### Made with 🤍 by [Malik Azad](https://www.linkedin.com/in/malikazad)
+ Made with 🤍 by [Malik Azad](https://www.linkedin.com/in/malikazad)
