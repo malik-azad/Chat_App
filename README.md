@@ -64,13 +64,13 @@ This project implements a secure chat application using RSA encryption for digit
 ### The client displays: Successful login, ready to chat with host.
 
 <br>
-# Chatting
-## After logging in, you can start sending and receiving encrypted messages. The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
+## Chatting
+### After logging in, you can start sending and receiving encrypted messages. The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
 
-# Project Structure
-### <b> db.py: </b> Handles user registration, login, and database operations.
-### <b> server.py: </b> Manages incoming connections and facilitates secure communication.
-### <b> client.py: </b> Connects to the server and handles sending and receiving messages.
+## Project Structure
+###  db.py: Handles user registration, login, and database operations.
+###  server.py: Manages incoming connections and facilitates secure communication.
+###  client.py: Connects to the server and handles sending and receiving messages.
 
 ## License
 ### This project is licensed under the MIT License.
