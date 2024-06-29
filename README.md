@@ -20,15 +20,12 @@ This project implements a secure chat application using RSA encryption for digit
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/secure-chat-app.git
-   cd secure-chat-app
+   git clone https://github.com/malik-azad/Chat_App.git
+   cd Chat_App
 2. **Install dependencies:**
    ```sh
    pip install rsa
-   Usage
-   Step 1: Set up the Database
-   Run db.py to create the database and user table:
-
+  
 # Usage
 ## Step 1: Set up the Database
 ### Run db.py to create the database and user table:
@@ -79,3 +76,5 @@ This project implements a secure chat application using RSA encryption for digit
 
 ## License
 ### This project is licensed under the MIT License.
+
+### Made with 🤍 by [Malik Azad](https://www.linkedin.com/in/malikazad)
