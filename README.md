@@ -29,11 +29,10 @@ This project implements a secure chat application using RSA encryption for digit
 # Usage
 ## Step 1: Set up the Database
 ### Run db.py to create the database and user table:
-    ```sh
     python db.py
+    
 ## Step 2: Manage Users
 ### Add users using the functions provided in db.py
-      ```sh
       from db import add_user, update_user, view_users, delete_user
    
       # Add a user
@@ -50,15 +49,14 @@ This project implements a secure chat application using RSA encryption for digit
 
  ## Step 3: Start the Server
  ### Run the server script:
-       ```sh
        python server.py
 
 ### The server will start listening for incoming connections on port 9999.
    
 ## Step 4: Connect with the Client
 ### Run the client script:
-      ```sh
       python client.py
+      
 ###The client will automatically connect to the server using the IP address defined in the script. You will be prompted to enter your username and password.
 
 ## Successful Login
