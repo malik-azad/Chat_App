@@ -49,9 +49,9 @@ def handle_client(client_socket):
                     digest = hashlib.sha256(message.encode()).digest()
                     try:
                         rsa.verify(digest, signature, public_partner)
-                        print("Partner: " + message)
+                        print(username +": " + message + "       - VERIFIED -")
                     except rsa.VerificationError:
-                        print("Partner: (Message verification failed)")
+                        print(username +": " + " (Message verification failed)")
                 else:
                     print("Connection closed by the client.")
                     break
