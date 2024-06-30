@@ -60,15 +60,16 @@ This project implements a secure chat application using RSA encryption for digit
  The client will automatically connect to the server using the IP address defined in the script. You will be prompted to enter your username and password.
 
 ## Successful Login
- The server displays: username joined the chat.
- The client displays: Successful login, ready to chat with host.
+ The server displays: username joined the chat. <br>
+ The client displays: Successful login, ready to chat with host.<br>
 
 ## Chatting
- After logging in, you can start sending and receiving encrypted messages. The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
+ After logging in, you can start sending and receiving encrypted messages. <br>
+ The messages are signed and verified using RSA digital signatures to ensure integrity and authenticity.
 
 ## Project Structure
- db.py: Handles user registration, login, and database operations.
- server.py: Manages incoming connections and facilitates secure communication.
+ db.py: Handles user registration, login, and database operations. <br>
+ server.py: Manages incoming connections and facilitates secure communication. <br>
  client.py: Connects to the server and handles sending and receiving messages.
 
 ## Fell free to update/modify this project
