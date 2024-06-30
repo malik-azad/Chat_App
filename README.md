@@ -74,3 +74,8 @@ This project implements a secure chat application using RSA encryption for digit
 ## Fell free to update/modify this project
 
  Made with 🤍 by [Malik Azad](https://www.linkedin.com/in/malikazad)
+
+ 
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/malikazad) 
+
+
