@@ -71,7 +71,6 @@ This project implements a secure chat application using RSA encryption for digit
  server.py: Manages incoming connections and facilitates secure communication.
  client.py: Connects to the server and handles sending and receiving messages.
 
-## License
- This project is licensed under the MIT License.
+## Fell free to update/modify this project
 
  Made with 🤍 by [Malik Azad](https://www.linkedin.com/in/malikazad)
