@@ -60,7 +60,7 @@ def verify_user(username, password):
 
 if __name__ == "__main__":
     create_table()
-    add_user('jubran', 123)
+    add_user('malik', 123)
     view_users()
 
     res = verify_user('azad', 123)
