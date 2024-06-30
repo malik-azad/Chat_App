@@ -29,7 +29,7 @@ def receive_messages(client_socket):
                 digest = hashlib.sha256(message.encode()).digest()
                 try:
                     rsa.verify(digest, signature, public_partner)
-                    print("Partner: " + message)
+                    print("Host: " + message  + "      -VERIFIED-" )
                 except rsa.VerificationError:
                     print("Partner: (Message verification failed)")
             else:
@@ -41,7 +41,7 @@ def receive_messages(client_socket):
 
 def main():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_ip = input("Enter the server IP address: ")
+    server_ip = "192.168.99.115" # IP address of server(azad)
     try:
         client_socket.connect((server_ip, 9999))
         global public_partner
@@ -50,11 +50,11 @@ def main():
         print("Connected to the server.")
 
         # Login
-        print(client_socket.recv(1024).decode())
-        username = input("Username: ")
+        print(client_socket.recv(1024).decode()) 
+        username = input()
         client_socket.send(username.encode())
         print(client_socket.recv(1024).decode())
-        password = input("Password: ")
+        password = input()
         client_socket.send(password.encode())
         login_response = client_socket.recv(1024).decode()
         print(login_response)
