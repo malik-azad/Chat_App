@@ -41,7 +41,7 @@ def receive_messages(client_socket):
 
 def main():
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_ip = "192.168.99.115" # IP address of server(azad)
+    server_ip = input("Enter server IP address: ") # IP address of server(azad)
     try:
         client_socket.connect((server_ip, 9999))
         global public_partner
