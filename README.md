@@ -58,6 +58,9 @@ This project implements a secure chat application using RSA encryption for digit
       python client.py
       
  The client will automatically connect to the server using the IP address defined in the script. You will be prompted to enter your username and password.
+(For demo you can use, Ip address: local host,   username: malik and password: 123)
+
+ 
 
 ## Successful Login
  The server displays: username joined the chat. <br>
